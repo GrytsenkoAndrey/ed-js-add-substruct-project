@@ -6,9 +6,9 @@
 
   buttons.forEach(function (button) {
     button.addEventListener('click',function () {
-      if (button.classList.contains('.prevBtn')) {
+      if (button.classList.contains('prevBtn')) {
         counter--;
-      } else if (button.classList.contains('.nextBtn')) {
+      } else if (button.classList.contains('nextBtn')) {
         counter++;
       }
 
