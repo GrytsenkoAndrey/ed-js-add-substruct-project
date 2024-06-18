@@ -1,6 +1,6 @@
 
 (function() {
-  const buttons = document.querySelector('.counterBtn'),
+  const buttons = document.querySelectorAll('.counterBtn'),
     counterElem = document.querySelector('#counter');
   let counter = 0;
 
